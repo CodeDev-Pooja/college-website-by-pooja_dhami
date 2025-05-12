@@ -1,0 +1,272 @@
+
+@media screen and (max-width: 768px) {
+ 
+ * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+ 
+  .hamburger {
+    display: flex;
+  }
+
+ 
+ .nav-container {
+  display: flex;
+align-items: end;
+  flex-direction: column;
+height: auto;
+  margin: 0;
+  background-color: var(--footer-bg);
+  right: 0;
+  justify-content: center;
+}
+
+ .menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--footer-bg);
+  }
+  .menu img{
+    display: none;
+  }
+
+  .menu.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+.logo-1 img{
+  display: flex;
+  width: 60px;
+ position: relative;
+}
+  .menu.active {
+   display: flex;
+    max-height: 70vh;
+    overflow-y: scroll;
+     top: 0;
+     right: 0;
+     z-index: 1000;
+     padding-top: 30px;
+     display: flex;
+     
+     
+  }
+  .menu.active::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+  .dropdown:hover .dropdown-content {
+    display: none;
+    max-height:0;
+  }
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    max-height: 500px;
+  }
+  .dropdown {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    
+  }
+ 
+  .dropdown div:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .dropdown-toggle {
+    font-size: 12px;
+    cursor: pointer;
+    padding: 0 5px;
+    user-select: none;
+    transition: transform 0.3s ease;
+  
+  }
+  .dropdown.open .dropdown-toggle {
+    transform: rotate(180deg);
+    
+  }
+  .dropdown-content {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--footer-bg);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s  ease;
+    text-align: center;
+    position: relative;
+  }
+
+
+  .dropdown.open .dropdown-content {
+    display: flex;
+    max-height: 500px;
+    
+  }
+   
+.course-grid {
+    display: flex;
+  
+  justify-content: center;
+  }
+.box {
+    display: flex;
+    flex-wrap: wrap;
+  max-width: 300px;
+  }
+  .course-card {
+    width: 100%;
+    max-width: 300px;
+    background-color: var(--footer-bg);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px var(--text-color);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+
+  .course-card:hover {
+    transform: scale(1.05);
+  }
+
+  .course-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .courseCard-content {
+    padding: 1rem;
+    text-align: center;
+  }
+
+#principalCard {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .principal-image img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .principalCard-content {
+    padding: 1rem;
+    text-align: center;
+  }
+
+
+
+
+      .gallery-grid img {
+        animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 10%;
+width: 100%;
+height: auto;
+object-fit: cover;
+border-radius: 10px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease;
+}
+
+   .footer-container {
+        flex-direction: column;
+      }
+.container-2 {
+    margin: 10px;
+    padding: 15px 20px;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+      padding: 1rem;
+      text-align: center;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px var(--text-color);
+      color: var(--text-color);      
+
+  }
+  
+ 
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p, li {
+    font-size: 16px;
+  }
+
+  .course-details table,
+  .course-details thead,
+  .course-details tbody,
+  .course-details th,
+  .course-details td,
+  .course-details tr {
+    display: block;
+    width: 100%;
+  }
+
+  .course-details tr {
+    margin-bottom: 1.2rem;
+    background-color: var(--footer-bg);
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+
+  }
+
+  .course-details td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+    border: none;
+    font-size: 0.7rem;
+    color:var(--text-color);
+    border-bottom: 1px solid #151515;
+  }
+
+  .course-details td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 16px;
+    top: 12px;
+    font-weight: 600;
+    text-align: left;
+    white-space: nowrap;
+    color: var(--text-color);
+    font-size: 0.8rem
+    
+  }
+
+  .course-details th {
+    display: none;
+  }
+
+  .course-details td:last-child {
+    border-bottom: none;
+  }
+.banner-slider img{
+  height: 30vh;
+}
+
+}

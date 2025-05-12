@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capus</title>
+      <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="mobile.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="./course.css">
+  <link rel="stylesheet" href="CA.css" />
+  <link rel="stylesheet" href="foooter.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+      <nav>
+         <div class="logo-1">
+      <img src="images/logo.png" alt="Logo">
+    </div>
+  <div class="nav-container">
+   
+    <div class="menu" id="menu">
+     
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <div>
+          <a href="#">Student</a>
+          <span class="dropdown-toggle" onclick="toggleDropdown(event)">▼</span>
+        </div>
+        <div class="dropdown-content">
+          <a href="topper.html">Topper List</a>
+          <a href="admission.html">Admission</a>
+          
+        </div>
+      </div>
+      <div class="dropdown">
+        <div>
+          <a href="#">Institute</a>
+          <span class="dropdown-toggle" onclick="toggleDropdown(event)">▼</span>
+        </div>
+        <div class="dropdown-content">
+          <a href="staff-members.html">Staff Members</a>
+          <a href="department.html">Department</a>
+          <a  href="rules.html">Rule & Regulation</a>
+
+        </div>
+      </div>
+      <div class="dropdown">
+        <div>
+          <a href="course.html">Course</a>
+          <span class="dropdown-toggle" onclick="toggleDropdown(event)">▼</span>
+        </div>
+        <div class="dropdown-content">
+          <a href="electrical.html">Electrical Engineering</a>
+          <a href="electronics.html">Electronics Engineering</a>
+          <a href="mechanical.html">Mechanical Engineering</a>
+          <a href="civil.html">Civil Engineering</a>
+          <a href="it.html">Information Technology</a>
+          <a href="mom_sp.html">Mom & Sp</a>
+          <a href="pharmacy.html">Pharmacy</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <div>
+          <a href="#" class="active">Facility</a>
+          <span class="dropdown-toggle" onclick="toggleDropdown(event)">▼</span>
+        </div>
+        <div class="dropdown-content">
+        
+          <a href="hostel.html">Hostel</a>
+          <a href="campus.html" class="active">Campus</a>
+          <a  href="library.html" >Library</a>
+        </div>
+      </div>
+      <a href="gallery.html">Gallery</a>
+      <a href="#footer">Contact</a>
+      <button id="themeToggleBtn" class="theme-toggle-btn">
+        <i class="fa-solid fa-sun" id="lightIcon" style="display: none;"></i>
+        <i class="fa-solid fa-moon" id="darkIcon" style="display: inline-block;"></i>
+      </button>
+    </div>
+    
+    </div>
+  </div>
+  <div class="hamburger" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+</nav>
+    
+    
+    
+    
+    <div class="main">
+      <!-- Banner -->  <div class="banner-slider" data-aos="fade-up">
+       <img class="active"src="images/slider-img.jpg" alt="Image 1">
+    <img src="images/slider-img3.jpg" alt="Image 2">
+    <img src="images/slider-img4.jpg" alt="Image 3">
+    <img src="images/slider-img6.jpg" alt="Image 4">
+    <img src="images/v1.jpg" alt="Image 5">
+     <img src="images/FB_IMG_1746909540590.jpg" alt="">
+ <div class="banner-controls">
+      <button onclick="prevSlide()"><i class="fas fa-chevron-left"></i></button>
+      <button onclick="nextSlide()"><i class="fas fa-chevron-right"></i></button>
+    </div>
+    <div class="indicators" id="indicators"></div>
+  </div>
+   <div class="container-2">
+    <div>
+
+      <h1>Computer Lab</h1>
+
+<p>Computer Lab, A computer lab is a space which provides computer services to a defined community. Computer labs are 
+  typically provided by libraries to the public, by academic institutions to students who attend the institution, or by 
+  other institutions to the public or to people affiliated with that institution. Users typically must follow a certain 
+  user policy to retain access to the computers. This generally consists of the user not engaging in 
+  illegal activities or attempting to circumvent any security or content-control software while using the computers.</p>
+    </div>
+    
+    <h1>Canteen</h1>
+<p> Choosing healthy food from the canteen Here are some healthy canteen options and ideas. If they’re available at your school canteen, these are the options to go for.
+</p>
+<p>Hot food    Here are some healthy hot food options:
+</p>
+
+<p>fresh soups with wholemeal bread rolls on the side
+</p>
+  <p>pasta or lasagne with fresh tomato, bolognaise or vegetable-based sauce
+</p>
+<p>plain rice or noodles with vegetables.
+
+</p>
+<p>Snacks If your child wants to get a snack from the canteen, encourage him to choose options like these:
+</p>
+<p>
+fruit salads or whole fruit</p>
+<p>savoury fruit or vegetable muffins or scones</p>
+<p>air-popped popcorn (not cooked in oil)</p>
+<p>reduced-fat cheese with pita or wholemeal crackers
+
+</p>
+
+</div>
+  
+  </main>
+   
+<section id="gallery">
+    <h1>Gallery</h1>
+    <div class="gallery-grid">
+       
+       <img src="images/FB_IMG_1746909605033.jpg" alt="">
+       <img src="images/FB_IMG_1746909551410.jpg" alt="">
+       <img src="images/FB_IMG_1746909548857.jpg" alt="">
+       <img src="images/FB_IMG_1746909540590.jpg" alt="">
+       <img src="images/FB_IMG_1746909523514.jpg" alt=""> <!-- Add more images as needed -->
+    </div>
+</section>
+<footer >
+    <div id="footer" class="footer-container">
+      <div class="footer-column">
+        <h3>About Us</h3>
+        <p>
+         welcome to Government Polytechnic Nainital District Nainital, one of the best Polytechnic College in Uttarkahnd. Here we are single-mindly focused on addressing students' needs in an increasingly competitive world. Life is not a set of 
+        instruction but a series of experience and learning process and engineering is not also apart from it.
+        </p>
+      </div>
+      <div class="footer-column">
+        <h3>Important Links</h3>
+        <ul>
+          <li><a href="https://ubterex.in/" target="_blank" rel="noopener noreferrer">UBTER, Roorkee</a></li>
+          <li><a href="https://www.aicte-india.org/" target="_blank" rel="noopener noreferrer">AICTE</a></li>
+          <li><a href="https://www.aicte-india.org/prmportal_enu/start.swe?SWECmd=Logoff&SWETS=1487235831575" target="_blank" rel="noopener noreferrer">AICTE Web Portal</a></li>
+          <li><a href="https://scholarships.gov.in/" target="_blank" rel="noopener noreferrer">NSP Portal</a></li>
+          <li><a href="https://ekosh.uk.gov.in/" target="_blank" rel="noopener noreferrer">Core Treasury Uttarakhand</a></li>
+          <li><a href="https://www.pci.nic.in/" target="_blank" rel="noopener noreferrer">PCI</a></li>
+        <li><a href="https://www.governmentjobs.com/" target="_blank" rel="noopener noreferrer">Formats-Staff</a></li>
+          <li><a href="https://www.boatnr.org/" target="_blank" rel="noopener noreferrer">APPRENTICESHIP</a></li>
+          <li><a href="https://www.ukdte.org/" target="_blank" rel="noopener noreferrer">DTE</a></li>
+         <li><a href="https://uktenders.gov.in/" target="_blank" rel="noopener noreferrer">Tender</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Follow Us</h3>
+        <ul>
+          <li><a href="https://www.facebook.com/govtpolyntll" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+          <li><a href="http://www.twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+          <li><a href="http://www.linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        </ul>
+        <h3>Contact Us</h3>
+        <p>
+          Sherwani, Nainital<br/>
+          Uttarakhand 263001<br/>
+          05942 234051<br/>
+          gpnainital@gmail.com
+        </p>
+       
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © Copyright 1998 - 2025 All Rights Reserved. | Designed by Pooja Dhami
+    </div>
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="main.js"></script>
+<script src="n.js"></script>
+</body>
+</html>
+
